@@ -1,0 +1,149 @@
+/* the styles for the HTML elements */
+body {
+    margin-top: 0;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+h1 {
+    font-size: 200%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 {
+    color: orangered;
+}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.nav li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    border: 2px solid black;
+    color: #FF7E00;   
+    font-weight: bold;
+}
+a:hover {
+    color: black;
+}
+
+table {
+    color: orangered;
+    border: 3px solid orangered;
+    border-collapse: collapse;
+    border-radius: 25px;
+    background-color: rgb(233, 158, 243);
+}
+td, th {
+    border: 2px solid orangered;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+td{
+    background-color: rgb(209, 212, 235);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+/* the styles for the div tags that divide the page into sections */
+#page {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: yellow;
+    border: 3px solid orangered;
+}
+#header {
+    margin: 0;
+    border-bottom: 2px solid orangered;
+    padding: .5em 2em;
+}
+#header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: #FF7E00;
+}
+#main {
+    margin: 0;
+    padding: 2em 2em;
+}
+
+#sidebar {
+    float: left;
+    width: 150px;
+}
+
+#content {
+    text-align: center;
+    width: 500px;
+    padding-bottom: 1.5em;
+}
+#left_column {
+    float: left;
+    width: 150px;
+    padding-left: 1.5em;
+}
+#right_column {
+    float: left;
+    padding-left: 1em;
+}
+#footer {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 2px solid orangered;
+}
+#footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+.right {
+    text-align: right;
+}
+
+/********************************************************************
+* Additional styles for the Product Manager application
+********************************************************************/
+#add_product_form {
+    margin: .5em 0 2em;
+}
+#add_product_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_product_form input {
+    float: left;
+}
+#add_product_form input[text] {
+    width: 15em;
+}
