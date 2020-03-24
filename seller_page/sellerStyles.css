@@ -1,0 +1,261 @@
+/* the styles for the HTML elements */
+#topBarDiv{
+    position: absolute;
+    background-image: url("../images/pageImages/MarioMartPageHeader.png");
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#topLogo{
+    position: relative;
+    left: -4vw;
+    width: 17vh;
+    height: 15vh;
+}
+
+#logoText{
+    font-size: 75pt;
+    color: goldenrod;
+    text-shadow: 5px 1px black;
+}
+
+#logout{
+   background-color: antiquewhite;
+   padding: 12px;
+   border-radius: 25px;
+   margin-left: 5vw;
+   box-shadow: 2px 2px 5px black;
+}
+body {
+    margin-top: 0;
+    background-image: url("../images/pageImages/MarioMartPageBody.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 200%;
+    margin: 0;
+    padding: .5em 0 2em;
+    
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 {
+    color: orangered;
+}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.nav li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: #FF7E00;   
+    font-weight: bold;
+    
+}
+a:hover {
+    color: black;
+}
+
+table {
+    
+    color: orangered;
+    padding: 12px;
+    border: 3px solid orangered;
+    border-radius: 25px;
+    background-color: rgb(233, 158, 243);
+}
+td, th {
+    border: 2px solid orangered;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+    background-color: rgb(248, 248, 244);
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+td{
+    background-color: rgb(209, 212, 235);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#options{
+    margin-top: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#options p{
+    margin: 2vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 3px 1px 4px black;
+    font-size: 13pt;
+}
+#options p:hover{
+
+    border-radius: 40px;
+
+}
+/* the styles for the div tags that divide the page into sections */
+#page {
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: rgb(211, 194, 238);
+    border: 3px solid orangered;
+    border-radius: 25px;
+    box-shadow: 1px 5px 12px black;
+}
+#header {
+    margin: 0;
+    border-bottom: 2px solid orangered;
+    padding: .5em 2em;
+}
+#header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: #FF7E00;
+}
+#main {
+    background-color: rgb(211, 194, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2em 2em;
+}
+
+#sidebar {
+    float: left;
+    width: 150px;
+}
+
+#left_column {
+    float: left;
+    width: 150px;
+    padding-left: 1.5em;
+}
+#right_column {
+    float: left;
+    padding-left: 1em;
+}
+#footer {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 2px solid orangered;
+}
+#footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+.right {
+    text-align: right;
+}
+
+#backButton{
+    background-color: white;
+    padding: 22px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+ }
+
+ #backButton:hover{
+     border-radius: 50px;
+ }
+/********************************************************************
+* Additional styles for the Product Manager application
+********************************************************************/
+#add_product_form {]
+    
+    margin: .5em 0 2em;
+}
+#add_product_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_product_form input {
+    float: left;
+}
+#add_product_form input[text] {
+    width: 15em;
+}
+
+/********************************************************************
+* Additional styles for the Book Form
+********************************************************************/
+#bookUploadPage{
+    position: relative;
+    border-radius: 25px;
+    top: 150px;
+    margin: 0;
+    padding: 2em 2em;
+    background-color: rgb(211, 194, 238);
+    border: 1px solid black;
+    box-shadow: 0px 5px 20px rgb(92, 85, 85);
+}
+
+#add_books_form{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#add_books_form input{
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 3px 4px gray;
+    outline-style:none;
+    padding: 0.5vh 1vw;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
