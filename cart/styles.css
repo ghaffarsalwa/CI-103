@@ -1,0 +1,192 @@
+/* the styles for the HTML elements */
+body {
+    margin-top: 0;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+h1 {
+    font-size: 200%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 {
+    color: orangered;
+}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.nav li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    borders: 2px sloid black;
+    color: #FF7E00;   
+    font-weight: bold;
+    
+}
+a:hover {
+    color: black;
+}
+
+table {
+    color: orangered;
+    border: 3px solid orangered;
+    border-collapse: collapse;
+}
+td, th {
+    border: 2px solid orangered;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+
+/* the styles for the div tags that divide the page into sections */
+#page {
+    margin: 0 auto;
+    background-color: yellow;
+    border: 3px solid orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cartMain{
+    position: relative;
+    top: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw;
+}
+#centerMeDaddy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#backLink{
+    
+    align-items: center;
+
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 3px 1px 4px black;
+    font-size: 13pt;
+    width: 40px;
+
+}
+#cartPage{
+    display: flex;
+    flex-direction: column;
+    top: 20vh;
+    width: auto;
+    background-color: rgb(211, 194, 238);
+    border: 3px solid goldenrod;
+    padding-top: 17vh;
+}
+#header {
+    margin: 0;
+    border-bottom: 2px solid orangered;
+    padding: .5em 2em;
+}
+
+#header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: #FF7E00;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2em 2em;
+}
+
+#sidebar {
+    float: left;
+    width: 150px;
+}
+
+#content {
+    float: left;
+    width: 500px;
+    padding-bottom: 1.5em;
+}
+#left_column {
+    float: left;
+    width: 150px;
+    padding-left: 1.5em;
+}
+#right_column {
+    float: left;
+    padding-left: 1em;
+}
+#footer {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 2px solid orangered;
+}
+#footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+.right {
+    text-align: right;
+}
+
+/********************************************************************
+* Additional styles for the Product Manager application
+********************************************************************/
+#add_product_form {
+    margin: .5em 0 2em;
+}
+#add_product_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_product_form input {
+    float: left;
+}
+#add_product_form input[text] {
+    width: 15em;
+}
